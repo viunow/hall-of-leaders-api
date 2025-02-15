@@ -18,7 +18,6 @@ import { AppService } from 'src/services/app.service';
       database: process.env.DB_DATABASE,
       models: [Score],
       autoLoadModels: true,
-      synchronize: true,
     }),
     LeaderboardModule,
   ],

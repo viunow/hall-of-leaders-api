@@ -30,7 +30,6 @@ exports.AppModule = AppModule = __decorate([
                 database: process.env.DB_DATABASE,
                 models: [score_model_1.Score],
                 autoLoadModels: true,
-                synchronize: true,
             }),
             leaderboard_module_1.LeaderboardModule,
         ],
